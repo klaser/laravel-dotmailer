@@ -16,5 +16,11 @@
         "psr-4": {
             "IndustriousMouse\\LaravelDotmailer\\": "src/"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/klaser/dotMailer-API-v2-PHP-client"
+        }
+    ]
 }
