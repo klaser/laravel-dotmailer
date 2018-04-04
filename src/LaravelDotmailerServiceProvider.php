@@ -32,7 +32,8 @@ class LaravelDotmailerServiceProvider extends ServiceProvider {
 
 		$credentials = [
 			Container::USERNAME			=> $config['username'],
-			Container::PASSWORD			=> $config['password']
+			Container::PASSWORD			=> $config['password'],
+			Container::REGION			=> $config['region']
 		];
 
 		$this->app->singleton('dotmailer', function() use($credentials) {
