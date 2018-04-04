@@ -1,5 +1,5 @@
 {
-    "name": "industrious-mouse/laravel-dotmailer",
+    "name": "klaser/laravel-dotmailer",
     "description": "Laravel wrapper for the dotmailer-api-v2-client library (https://github.com/romanpitak/dotmailer-api-v2-client)",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "romanpitak/dotmailer-api-v2-client": "~1.1"
+        "klaser/dotmailer-api-v2-client": "dev-master"
     },
     "autoload": {
         "psr-4": {
